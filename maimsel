@@ -1,0 +1,14 @@
+#!/bin/sh
+# ** requires maim **
+
+# screenshot folder
+IMG_FOLDER=$HOME/Pictures/Screenshots
+
+IMG_PATH=$IMG_FOLDER/pic-select-"$(date '+%y%m%d-%H%M-%S').png"
+
+# maim select mod, save screenshot to IMG_PATH
+maim -s $IMG_PATH 
+
+# copy IMG to clipboard, you can paste it to x11 applications use C-V etc.
+xclip -selection clipboard $IMG_PATH -t image/png
+
