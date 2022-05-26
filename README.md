@@ -16,7 +16,7 @@ note that (maybe) playerctl is only available on arch-based distros.
     export pywal color scheme to alacritty.yaml
 + setup \
     add `source /path/to/alacritty-pywal.sh` to ~/.config/wal/postrun 
-    check pywal on [github](https://github.com/dylanaraps/pywal) for more info 
+    check [pywal on github](https://github.com/dylanaraps/pywal) for more info 
 
 ### **copy2clipboard**
 + func \
@@ -27,7 +27,7 @@ note that (maybe) playerctl is only available on arch-based distros.
 + You can rename it to `copy` if nothing conflicts.
 
 ### **maimsel, maimall**
-+ func \
++ func
     - maimsel: select rectangle area, take a screenshot, save it, and copy it to clipboard.
     - maimall: similar to maimsel, take a fullscreen shot
 + dependency \
