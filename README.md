@@ -2,7 +2,7 @@
 
 ## shell scripts
 
-### **blurlock.sh**
+### **blurlock**
 + fuctions \
 pauses web browser media, mpv, mpc(ncmpcpp) 
 and takes a screenshot of your current desktop, blur it, and use it as a background to lock your pc.
@@ -25,6 +25,14 @@ and takes a screenshot of your current desktop, blur it, and use it as a backgro
 + dependency \
     `xclip`
 + You can rename it to `copy` if nothing conflicts.
+
+
+### clip
+this one is quiet simple, but is useful in shell pipe, eg. `pwd | clip` will copy CWD into clipboard.
+`xclip -selction clipboard`
+
+### empty_trash
+rm -rf $HOME/.local/share/Trash
 
 ### **maimsel, maimall**
 + func
