@@ -34,9 +34,9 @@ and takes a screenshot of your current desktop, blur it, and use it as a backgro
     `maim`
 + You can check `maim --help` for more mode. Folder which screenshots are saved to is set in script.
 
-## [Vim tricks](vim.md)
+## [Vim tricks](https://github.com/blinky39/vimtricks)
+
+## [linux cleaning](Clean.md)
 
 ## python scripts
 
-
-## and more
