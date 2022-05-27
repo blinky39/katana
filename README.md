@@ -9,7 +9,7 @@ and takes a screenshot of your current desktop, blur it, and use it as a backgro
 
 + dependences \
 `playerctl imagemagick i3lock`
-note that (maybe) playerctl is only available on arch-based distros.
++ note that (maybe) playerctl is only available on arch-based distros.
 
 ### **alacritty-pywal.sh**
 + funcs \
@@ -32,9 +32,7 @@ note that (maybe) playerctl is only available on arch-based distros.
     - maimall: similar to maimsel, take a fullscreen shot
 + dependency \
     `maim`
-+ note \
-    You can check `maim --help` for more mode. 
-    Folder which screenshots are saved to is set in script.
++ You can check `maim --help` for more mode. Folder which screenshots are saved to is set in script.
 
 ## [Vim tricks](vim.md)
 
