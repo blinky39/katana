@@ -36,6 +36,7 @@ note that (maybe) playerctl is only available on arch-based distros.
     You can check `maim --help` for more mode. 
     Folder which screenshots are saved to is set in script.
 
+## [Vim tricks](vim.md)
 
 ## python scripts
 
