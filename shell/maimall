@@ -11,4 +11,3 @@ maim $IMG_PATH
 
 # copy IMG to clipboard, you can paste it to x11 applications use C-V etc.
 xclip -selection clipboard $IMG_PATH -t image/png
-

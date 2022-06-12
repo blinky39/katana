@@ -52,6 +52,12 @@ export PATH="$PATH:${$(find /path/to/folder -type d -printf %p:)%%:}"
 + dependency: maim
 + You can check `maim --help` for more mode. Folder which screenshots are saved to is set in script.
 
+### **setbg0, setbg1**
++ func
+    - set wallpaper for monitor 0 and 1
++ dependency: feh
++ You can copy and change scripts to support more monitors.
+
 ## [Vim tricks](https://github.com/blinky39/vimtricks)
 
 ## [linux cleaning](Clean.md)
